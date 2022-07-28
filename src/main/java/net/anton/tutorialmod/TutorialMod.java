@@ -1,6 +1,7 @@
 package net.anton.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.anton.tutorialmod.block.ModBlocks;
 import net.anton.tutorialmod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +25,7 @@ public class TutorialMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
