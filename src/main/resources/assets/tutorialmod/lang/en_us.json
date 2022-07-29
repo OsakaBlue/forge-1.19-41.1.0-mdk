@@ -2,8 +2,6 @@
   "item.tutorialmod.zircon": "Zircon",
   "item.tutorialmod.raw_zircon": "Raw Zircon",
   "item.tutorialmod.eight_ball": "Eight Ball",
-  "item.tutorialmod.dowsing_rod": "Dowsing Rod",
-
 
 
   "block.tutorialmod.zircon_block": "Block of Zircon",
@@ -15,5 +13,4 @@
 
   "itemGroup.tutorialtab": "Zircon Tutorial Tab",
 
-  "item.tutorialmod.dowsing_rod.no_valuables": "No Valuables Found!"
 }

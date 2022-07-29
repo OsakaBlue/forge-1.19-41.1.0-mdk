@@ -1,7 +1,6 @@
 package net.anton.tutorialmod.item;
 
 import net.anton.tutorialmod.TutorialMod;
-import net.anton.tutorialmod.item.custom.DowsingRodItem;
 import net.anton.tutorialmod.item.custom.EightBallItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,9 +21,6 @@ public class ModItems {
             () -> new EightBallItem(new Item.Properties().tab(ModCreativeModTab.TUTORIAL_TAB).stacksTo(1)));
 
 
-
-    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
-            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModTab.TUTORIAL_TAB).durability(16)));
 
 
 
