@@ -1,6 +1,7 @@
 package net.anton.tutorialmod.block;
 
 import net.anton.tutorialmod.TutorialMod;
+import net.anton.tutorialmod.block.custom.JumpyBlock;
 import net.anton.tutorialmod.item.ModCreativeModTab;
 import net.anton.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -51,6 +52,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModTab.TUTORIAL_TAB);
+
+
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.TUTORIAL_TAB);
 
 
 

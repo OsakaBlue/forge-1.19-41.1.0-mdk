@@ -2,7 +2,7 @@
   "item.tutorialmod.zircon": "Zircon",
   "item.tutorialmod.raw_zircon": "Raw Zircon",
   "item.tutorialmod.eight_ball": "Eight Ball",
-
+  "item.tutorialmod.dowsing_rod": "Dowsing Rod",
 
 
 
@@ -11,7 +11,9 @@
   "block.tutorialmod.deepslate_zircon_ore": "Deepslate Zircon Ore",
   "block.tutorialmod.endstone_zircon_ore": "Endstone Zircon Ore",
   "block.tutorialmod.netherrack_zircon_ore": "Netherrack Zircon Ore",
+  "block.tutorialmod.jumpy_block": "Jumpy Block",
 
+  "itemGroup.tutorialtab": "Zircon Tutorial Tab",
 
-  "itemGroup.tutorialtab": "Zircon Tutorial Tab"
+  "item.tutorialmod.dowsing_rod.no_valuables": "No Valuables Found!"
 }

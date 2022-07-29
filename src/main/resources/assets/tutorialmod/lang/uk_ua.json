@@ -1,0 +1,16 @@
+{
+  "item.tutorialmod.zircon": "Циркон",
+  "item.tutorialmod.raw_zircon": "Сирий Циркон",
+  "item.tutorialmod.eight_ball": "Eight Ball",
+
+
+
+  "block.tutorialmod.zircon_block": "Цирконовий Блок",
+  "block.tutorialmod.zircon_ore": "Цирконова Руда",
+  "block.tutorialmod.deepslate_zircon_ore": "Глибосланцева Цирконова Руда",
+  "block.tutorialmod.endstone_zircon_ore": "Цирконова Руда Енду",
+  "block.tutorialmod.netherrack_zircon_ore": "Незеракова Цирконова Руда",
+  "block.tutorialmod.jumpy_block": "Блок Стрибучості",
+
+  "itemGroup.tutorialtab": "Цирконова навчальна вкладка"
+}
