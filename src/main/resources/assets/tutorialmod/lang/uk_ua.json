@@ -2,6 +2,8 @@
   "item.tutorialmod.zircon": "Циркон",
   "item.tutorialmod.raw_zircon": "Сирий Циркон",
   "item.tutorialmod.eight_ball": "Eight Ball",
+  "item.tutorialmod.blueberry": "Лохина",
+  "item.tutorialmod.blueberry_seeds": "Насіння Лохини",
 
 
 
@@ -12,6 +14,7 @@
   "block.tutorialmod.netherrack_zircon_ore": "Незеракова Цирконова Руда",
   "block.tutorialmod.jumpy_block": "Блок Стрибучості",
   "block.tutorialmod.zircon_lamp": "Цирконова Лампа",
+  "block.tutorialmod.blueberry_crop": "Кущик Лохини",
 
   "itemGroup.tutorialtab": "Цирконова навчальна вкладка"
 }
