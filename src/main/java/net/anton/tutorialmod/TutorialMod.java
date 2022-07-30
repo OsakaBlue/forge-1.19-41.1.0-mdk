@@ -3,6 +3,7 @@ package net.anton.tutorialmod;
 import com.mojang.logging.LogUtils;
 import net.anton.tutorialmod.block.ModBlocks;
 import net.anton.tutorialmod.item.ModItems;
+import net.anton.tutorialmod.villager.ModVillagers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
@@ -29,6 +30,7 @@ public class TutorialMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        ModVillagers.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -36,7 +38,9 @@ public class TutorialMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        event.enqueueWork(() -> {
+           ModVillagers.registerPOIs();
+        });
     }
 
 

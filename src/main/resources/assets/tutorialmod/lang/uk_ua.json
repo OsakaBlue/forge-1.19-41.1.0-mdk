@@ -16,5 +16,6 @@
   "block.tutorialmod.zircon_lamp": "Цирконова Лампа",
   "block.tutorialmod.blueberry_crop": "Кущик Лохини",
 
-  "itemGroup.tutorialtab": "Цирконова навчальна вкладка"
+  "itemGroup.tutorialtab": "Цирконова навчальна вкладка",
+  "entity.minecraft.villager.tutorialmod.jumpy_master": "Стрибучий Майстер"
 }
